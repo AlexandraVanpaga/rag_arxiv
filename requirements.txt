@@ -1,0 +1,19 @@
+--index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1+cu124
+--extra-index-url https://pypi.org/simple
+
+transformers==4.55.2
+numpy==1.26.1
+datasets==4.0.0
+accelerate==1.10.0
+evaluate==0.4.6
+requests>=2.32.2
+tqdm>=4.66.3
+matplotlib>=3.8.0
+pandas>=2.2.0
+scikit-learn>=1.4.2
+seaborn>=0.12.2
+langchain_text_splitters
+langchain_core
+faiss-cpu
+sentence-transformers
